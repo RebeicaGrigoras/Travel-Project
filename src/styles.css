@@ -49,10 +49,12 @@ body {
   aspect-ratio: 1/1;
 }
 
-.img-responsive {
-  width: 100%;
-  display: block;
+.img-responsive{
+  object-fit: cover;
+  height: 100%;
 }
+
+
 .btn {
   display: block;
   color: white;
